@@ -10,20 +10,13 @@ contract ExampleTest is Test {
 
     function setUp() public {
         b = new B();
-        a = new A{ value: 1 ether }(address(b));
+        a = new A(address(b));
     }
 
     function testExample() public {
-        assertEq(address(a).balance, 1 ether);
-        assertEq(address(b).balance, 0 ether);
-        a.payHalf();
-        assertEq(address(a).balance, 0.5 ether);
-        assertEq(address(b).balance, 0.5 ether);
-        a.payHalf();
-        assertEq(address(a).balance, 0.25 ether);
-        assertEq(address(b).balance, 0.75 ether);
-        a.payHalf();
-        assertEq(address(a).balance, 0.125 ether);
-        assertEq(address(b).balance, 0.875 ether);
+        a.callB{value: 1.5 ether}();
+        assertEq(address(a).balance, 1.5 ether);
+        assertEq(a.errorsCount(), 1);
+        assertEq(b.x(), 0);
     }
 }
