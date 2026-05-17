@@ -1,6 +1,9 @@
 #Resource
-this contain resource from https://university.alchemy.com/course/solidity/
 
+this contain resource from https://university.alchemy.com/course/solidity/
+- Official Solidity docs: https://docs.soliditylang.org/
+- Remix IDE: https://remix.ethereum.org/
+- Hardhat framework: https://hardhat.org/
 
 # Presentations: https://github.com/alchemyplatform/learn-solidity-presentations
 
