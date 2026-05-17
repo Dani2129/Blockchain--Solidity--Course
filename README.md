@@ -50,13 +50,9 @@ Complete guide to learning Blockchain development and Solidity smart contracts.
 3. Build mini-projects
 4. Review and practice
 
-## Resources
-- Official Solidity docs: https://docs.soliditylang.org/
-- Remix IDE: https://remix.ethereum.org/
-- Hardhat framework: https://hardhat.org/
-
-1 Daniel Tadesse(Group Leader)
-2 Natnael Eshetu
-3 Hermela Girma
-4 Abrham Yeshigeta
-5 Dureti Gnafero
+# Contributor 
+- 1 Daniel Tadesse(Group Leader)
+- 2 Natnael Eshetu
+- 3 Hermela Girma
+- 4 Abrham Yeshigeta
+- 5 Dureti Gnafero
