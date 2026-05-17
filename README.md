@@ -2,11 +2,11 @@
 
 
 # Name of the gorup
-1 Daniel Tadesse---ugr/25670/14---Section 1
-2 Natnael Eshetu--A/UR5111/09----Section 2
-3 Hermela Girma----UGR/26306/14---Section 2
-4 Abrham Yeshigeta-UGR/25982/14---Section 2
-5 Dureti Gnafero---UGR/25531/14---Section 3
+- 1 Daniel Tadesse---ugr/25670/14---Section 1
+- 2 Natnael Eshetu--A/UR5111/09-----Section 2
+- 3 Hermela Girma----UGR/26306/14---Section 2
+- 4 Abrham Yeshigeta-UGR/25982/14---Section 2
+- 5 Dureti Gnafero---UGR/25531/14---Section 3
 
 # Blockchain & Solidity Course Materials
 
